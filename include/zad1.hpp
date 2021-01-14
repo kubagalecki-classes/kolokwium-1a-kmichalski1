@@ -40,11 +40,9 @@ private:
 
 };
 
-Tagliatelle::Tagliatelle()
+Tagliatelle::Tagliatelle() :L(0.5), W(0.5), R(0.5)
 {
-    L = 0.5;
-    W = 0.5;
-    R = 0.5;
+
 }
 
 Tagliatelle::Tagliatelle(double a, double b, double c) :L(a), W(b), R(c)
