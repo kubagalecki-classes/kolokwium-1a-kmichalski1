@@ -1,6 +1,5 @@
 #include "catch.hpp"
 
-#include <iostream>
 
 // Zad2
 // tutaj definicja klasy Makaron
@@ -9,9 +8,8 @@
 class Makaron
 {
 public:
-    virtual double ileMaki(unsigned) const = 0;
-
-    static Makaron* gotujMakaron(const std::string&);
+    virtual double ileMaki(unsigned P) const = 0;
+    static Makaron* gotujMakaron(const std::string& str);
 };
 
 // Zad1
