@@ -26,7 +26,7 @@ double Penne::ileMaki(unsigned P) const
 
 // tutaj definicja metody gotujMakaron
 
-Makaron* Makaron::gotujMakaron(std::string& str)
+Makaron* Makaron::gotujMakaron(const std::string& str)
 {
     if (str.front() == str.back()) {
         Tagliatelle * obj = new Tagliatelle(3.14, 0.42, 0.1);
