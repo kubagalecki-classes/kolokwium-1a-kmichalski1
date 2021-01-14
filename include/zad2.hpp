@@ -21,7 +21,7 @@ public:
 
 double Penne::ileMaki(unsigned P) const
 {
-    return P;
+    return (double)P;
 }
 
 // tutaj definicja metody gotujMakaron
