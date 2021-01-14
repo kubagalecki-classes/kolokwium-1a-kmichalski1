@@ -12,14 +12,13 @@ class Penne : public Makaron
 {
 
 public:
-    double ileMaki(unsigned P) const override;
-
-};
-
-double Penne::ileMaki(unsigned P) const
+   double Penne::ileMaki(unsigned P) const override
 {
     return (double)P;
 }
+
+};
+
 
 // tutaj definicja metody gotujMakaron
 
