@@ -21,7 +21,7 @@ public:
 // Zad1
 // tutaj definicja klasy Tagliatelle
 
-class Tagliatelle
+class Tagliatelle : public Makaron
 {
 public:
     Tagliatelle();
@@ -29,7 +29,7 @@ public:
     ~Tagliatelle();
 
 public:
-    double ileMaki(unsigned P) const;
+    double ileMaki(unsigned P) const override;
 
 private:
     double L;
@@ -57,5 +57,5 @@ Tagliatelle::~Tagliatelle()
 
 double Tagliatelle::ileMaki(unsigned P) const
 {
-    return P * L * W *(1. - R) * C;
+    return P * L * W * (1. - R) * C;
 }
