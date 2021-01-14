@@ -8,17 +8,6 @@
 
 // tutaj klasa Penne
 
-class Makaron
-{
-public:
-    Makaron() = default;
-    ~Makaron() = default;
-
-public:
-    virtual double ileMaki(unsigned) const = 0;
-
-    static Makaron* gotujMakaron(std::string&);
-};
 class Penne : public Makaron
 {
 public:
