@@ -15,7 +15,7 @@ public:
 public:
     virtual double ileMaki(unsigned) const = 0;
 
-    static Makaron* gotujMakaron(std::string&);
+    static Makaron* gotujMakaron(const std::string&);
 };
 
 // Zad1
