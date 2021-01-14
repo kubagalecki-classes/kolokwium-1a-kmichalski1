@@ -1,5 +1,7 @@
 #include "catch.hpp"
 
+#include <iostream>
+
 // Zad2
 // tutaj definicja klasy Makaron
 // BEZ definicji metody gotujMakaron (tylko z deklaracją)
@@ -18,8 +20,6 @@ public:
 
 // Zad1
 // tutaj definicja klasy Tagliatelle
-
-#include <iostream>
 
 class Tagliatelle
 {
