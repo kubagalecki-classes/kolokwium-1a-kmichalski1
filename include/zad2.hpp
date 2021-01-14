@@ -10,9 +10,6 @@
 
 class Penne : public Makaron
 {
-public:
-    Penne() = default;
-    ~Penne() = default;
 
 public:
     double ileMaki(unsigned P) const override;
